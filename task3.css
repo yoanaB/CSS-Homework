@@ -1,0 +1,68 @@
+body,
+header,
+aside,
+footer,
+article {
+    margin: 1%;
+}
+
+header {
+    background-color: #000066;
+    width: 98%;
+    height: 30px;
+}
+
+.aside-1 {
+    float: left;
+    background-color: #800080;
+    height: 560px;
+}
+
+article {
+    background-color: #008000;
+    float: left;
+    height: 560px;
+}
+
+footer {
+    background-color: #0000ff;
+    float: left;
+    width: 98%;
+    height: 30px;
+}
+
+.aside-2 {
+    float: left;
+    background-color: #ff0000;
+    height: 560px;
+}
+
+@media (min-width: 0) {
+    .aside-1,
+    .aside-2,
+    article {
+        width: 100%;
+    }
+
+    header,
+    footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .aside-1,
+    .aside-2 {
+        width: 20%;
+
+    }
+
+    article {
+        width: 54%;
+    }
+
+    header,
+    footer {
+        width: 98%;
+    }
+}

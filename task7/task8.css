@@ -1,0 +1,164 @@
+header,
+div,
+h1,
+section,
+footer{
+    margin: 0 auto;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header>div{
+    background-color: #1f2324;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header section>div{
+    background-color: #f73a4c;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+}
+.title{
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+}
+.navigation ul li a,
+.inline-list li a{
+    color: #fff;
+    text-decoration: none;
+}
+.navigation ul li,
+.inline-list li{
+    display: inline-block;
+    padding: 2%;
+}
+.navigation{
+    text-align: right;
+}
+.inline-list{
+    text-align: center;
+    padding: 4%;
+   margin-bottom: 40px;
+}
+.sponge-bob-background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sponge-bob blockquote{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+.btn{
+    /*position: absolute;*/
+    z-index: 2;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #fff;
+    cursor:pointer;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 30%;
+    width: 100px;
+    height: 50px;
+}
+.btn-group{
+    position: absolute;
+    z-index: 2;
+}
+.btn-group ul li{
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}
+.btn-group a{
+    color: #fff;
+    text-decoration: none;
+}
+.sponge-bob div.btn-group ul{
+    margin-top: 110%;
+    margin-left: 140%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #1f2324;
+    color: #fff;
+    text-align: center;
+}
+.main ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.main ul li{
+    text-align: left;
+}
+.more-movies{
+    background-color: #1f2324;
+    color: #fff;
+    text-align: center;
+}
+.more-movies .the-more-movies div{
+    display: inline-block;
+    margin: 2%;
+}
+.testimonials{
+    background-color: #f73a4c;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.testimonials img{
+    border-radius: 50%;
+}
+.mail{
+    background-color: #1f2324;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #31383a;
+    display: inline-block;
+}
+.mfInput{
+    display: inline-block;
+    position: relative;
+}
+form{
+    text-align: left;
+    width: 100%;
+}
+.PlaceHolder{
+    cursor: text;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 20px 15px 10px;
+    line-height: 22px;
+    color: #b1b6b8;
+    opacity: 0.5;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+footer div{
+    float:left;
+    color: #313e4e;
+}

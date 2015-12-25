@@ -1,0 +1,29 @@
+h1{
+    background: #4483c7;
+    border-bottom: 1px solid black;
+    margin: 0.5%;
+    color: #ffffff;
+}
+h2{
+    margin: 2%;
+}
+img{
+    margin: 0 auto;
+}
+h3{
+    height: 30px;
+    background: #538620;
+    color: #ffffff;
+    margin: 0;
+}
+div{
+    background: #ffffee;
+    border: 1px solid #538620;
+    margin: 2%;
+}
+header{
+    text-align: center;
+}
+.sub-p{
+    color: #666666;
+}
